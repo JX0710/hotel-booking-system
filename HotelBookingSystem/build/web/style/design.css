@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2019, 5:12:39 PM
+    Author     : Ooi Jing Xian
+*/
+
+body{background-image:url("main.jpg");background-repeat:repeat;
+     background-attachment: fixed; background-position: center;margin: auto;}
+ul {list-style-type: none; margin: 0;padding: 0;overflow: hidden;background-color: #333;position: fixed;
+  top: 0%;width: 100%;}
+li {float: left;}
+li a {display: block;color: white;text-align: center;padding: 14px 16px; text-decoration: none;}
+li a:hover {background-color: #111;}
+
+h1{text-align: center;color: orangered;font-size: 50px;}
+
+h2{text-align: center;color: orangered;font-size: 25px;}
+
+table{ margin: auto; font-size: 20px;color: black; border: 2.5px solid;border-color: lightgoldenrodyellow;
+       text-align: center;background-color: white; background-color:rgba(125, 99, 71, 0.8);
+     height: 150px; width: 50%;padding-right: 10px;}
+
+input[type=submit],[type=reset]{background-color: white;border: 1px solid;border-color: black;
+                    width: 60px; font-size: 15px;text-align: center; }
+
+input[type=date]{background-color: white; border:1px solid;border-color: black; 
+                 height: 20px; font-size: 15px; text-align: center;}
+
+select{background-color: white; border: 1px solid;border-color: black;height: 20px; width: 100px;}
+
+img{margin-top: 5%;height: 170px;width: 170px;}
+
